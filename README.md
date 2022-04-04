@@ -8,11 +8,17 @@
 Please complete [src/main/java/com/bytelegend/Challenge.java](https://github.com/ByteLegendQuest/java-student-grade/blob/main/src/main/java/com/bytelegend/Challenge.java)'s `getStudentGrade()` method.
 
 `getStudentGrade(int score)` returns the grade of the student based on the given score.
+
 If 0<=score<60, return `E`;
+
 If 60<=score<70, return `D`;
+
 If 70<=score<80, return `C`;
+
 If 80<=score<90, return `B`;
+
 If 90<=score<100, return `A`;
+
 If the score is not in 0-100 range, return `Invalid Score`.
 
 
@@ -46,11 +52,17 @@ Any changes to files other than the following files will be rejected:**
 请完成[src/main/java/com/bytelegend/Challenge.java](https://github.com/ByteLegendQuest/java-student-grade/blob/main/src/main/java/com/bytelegend/Challenge.java)的`getStudentGrade()`方法。
 
 `getStudentGrade(int score)`根据给定的分数，返回学生的等级。
+
 如果0<=分数<60，返回`E`；
+
 如果60<=分数<70，返回`D`；
+
 如果70<=分数<80，返回`C`；
+
 如果80<=分数<90，返回`B`；
+
 如果90<=90<=100，返回`A`；
+
 若输入的分数不在0-100范围内，返回`Invalid Score`。
 
 
@@ -82,7 +94,19 @@ Any changes to files other than the following files will be rejected:**
 
 請完成[src/main/java/com/bytelegend/Challenge.java](https://github.com/ByteLegendQuest/java-student-grade/blob/main/src/main/java/com/bytelegend/Challenge.java)的`getStudentGrade()`方法。
 
-`getStudentGrade(int score)`根據給定的分數返回學生的成績。如果 0<=score<60，則返回`E` ；如果 60<=score<70，則返回`D` ；如果 70<=score<80，則返回`C` ；如果 80<=score<90，則返回`B` ；如果 90<=score<100，則返回`A` ；如果分數不在 0-100 範圍內，則返回`Invalid Score` 。
+`getStudentGrade(int score)`根據給定的分數返回學生的成績。
+
+如果 0<=score<60，則返回`E` ；
+
+如果 60<=score<70，則返回`D` ；
+
+如果 70<=score<80，則返回`C` ；
+
+如果 80<=score<90，則返回`B` ；
+
+如果 90<=score<100，則返回`A` ；
+
+如果分數不在 0-100 範圍內，則返回`Invalid Score` 。
 
 -   您可以通過以下任何方式完成此挑戰：
     -   建議初學者：運行`git clone https://github.com/ByteLegendQuest/java-student-grade`下載代碼，在本地 IDE 中完成挑戰，然後在 Web 編輯器中復制/粘貼/提交答案。
@@ -111,7 +135,19 @@ Grado del estudiante
 
 Complete el método `getStudentGrade()` de [src/main/java/com/bytelegend/Challenge.java](https://github.com/ByteLegendQuest/java-student-grade/blob/main/src/main/java/com/bytelegend/Challenge.java) .
 
-`getStudentGrade(int score)` devuelve la calificación del estudiante en función de la puntuación dada. Si 0<=puntuación<60, devuelve `E` ; Si 60<=puntuación<70, devuelve `D` ; Si 70<=puntuación<80, devuelve `C` ; Si 80<=puntuación<90, devuelve `B` ; Si 90<=puntuación<100, devuelve `A` ; Si la puntuación no está en el rango de 0 a 100, devuelva `Invalid Score` .
+`getStudentGrade(int score)` devuelve la calificación del estudiante en función de la puntuación dada.
+
+Si 0<=puntuación<60, devuelve `E` ;
+
+Si 60<=puntuación<70, devuelve `D` ;
+
+Si 70<=puntuación<80, devuelve `C` ;
+
+Si 80<=puntuación<90, devuelve `B` ;
+
+Si 90<=puntuación<100, devuelve `A` ;
+
+Si la puntuación no está en el rango de 0 a 100, devuelva `Invalid Score` .
 
 -   Puede lograr este desafío de cualquier manera a continuación:
     -   Recomendado para principiantes: ejecute `git clone https://github.com/ByteLegendQuest/java-student-grade` para descargar el código, finalice el desafío en su IDE local, luego copie/pegue/envíe la respuesta en el editor web.
@@ -140,14 +176,26 @@ Si necesita ayuda, no dude en unirse a la [comunidad de Discord](https://discord
 
 يُرجى إكمال طريقة [src / main / java / com / bytelegend / Challenge.java](https://github.com/ByteLegendQuest/java-student-grade/blob/main/src/main/java/com/bytelegend/Challenge.java) `getStudentGrade()` .
 
-`getStudentGrade(int score)` درجة الطالب بناءً على الدرجة المحددة. إذا كانت القيمة 0 <= الدرجة <60 ، فقم بإرجاع `E` ؛ إذا كانت 60 <= الدرجة <70 ، فقم بإرجاع `D` ؛ إذا كانت 70 <= الدرجة <80 ، فقم بإرجاع `C` ؛ إذا كانت 80 <= الدرجة <90 ، فقم بإرجاع `B` ؛ إذا كانت 90 <= الدرجة <100 ، فقم بإرجاع `A` ؛ إذا لم تكن النتيجة في النطاق 0-100 ، فقم بإرجاع `Invalid Score` .
+`getStudentGrade(int score)` درجة الطالب بناءً على الدرجة المحددة.
+
+إذا كانت القيمة 0 <= الدرجة <60 ، فقم بإرجاع `E` ؛
+
+إذا كانت 60 <= الدرجة <70 ، فقم بإرجاع `D` ؛
+
+إذا كانت 70 <= الدرجة <80 ، فقم بإرجاع `C` ؛
+
+إذا كانت 80 <= الدرجة <90 ، فقم بإرجاع `B` ؛
+
+إذا كانت 90 <= الدرجة <100 ، فقم بإرجاع `A` ؛
+
+إذا لم تكن النتيجة في النطاق 0-100 ، فقم بإرجاع `Invalid Score` .
 
 -   يمكنك إنجاز هذا التحدي بأي طريقة أدناه:
     -   موصى به للمبتدئين: قم بتشغيل `git clone https://github.com/ByteLegendQuest/java-student-grade` لتنزيل الكود ، وإنهاء التحدي في IDE المحلي الخاص بك ، ثم نسخ / لصق / إرسال الإجابة في محرر الويب.
         -   إذا كنت لا تعرف كيف يمكنك النقر فوق [استيراد مشروع إلى IDEA](https://github.com/ByteLegendQuest/java-student-grade/blob/main/docs/en/clone-and-import.md) / [استيراد مشروع إلى VSCode](https://github.com/ByteLegendQuest/java-student-grade/blob/main/docs/en/clone-and-import-vscode.md) .
         -   قبل إرسال التعليمات البرمجية الخاصة بك ، من الأفضل تشغيل `mvn verify` محليًا لتوفير الوقت. لا أعرف كيف؟ انظر [التحقق محليًا في IDEA](https://github.com/ByteLegendQuest/java-student-grade/blob/main/docs/en/run-mvn-verify-idea.md) / [تحقق محليًا في VSCode](https://github.com/ByteLegendQuest/java-student-grade/blob/main/docs/en/run-mvn-verify-vscode.md) .
     -   غير موصى به على الإطلاق: يمكنك [النقر هنا لتنزيل رمز مضغوط](https://codeload.github.com/ByteLegendQuest/java-student-grade/zip/refs/heads/main) إذا كنت لا تحب عمليات `git` .
-    -   أو: إذا كنت واثقًا بدرجة كافية لكتابة التعليمات البرمجية في محرر الويب مباشرةً ، فابدأ.
+    -   أو: إذا كنت واثقًا بدرجة كافية من كتابة التعليمات البرمجية في محرر الويب مباشرةً ، فابدأ.
     -   أو: إذا كنت معتادًا على GitHub ، فيمكنك تفرع [الريبو](https://github.com/ByteLegendQuest/java-student-grade) وإنهاء التحدي وإنشاء طلب سحب.
 -   سيتحقق الروبوت من العلاقات العامة الخاصة بك ويخبرك إذا أنجزت التحدي.
 -   ارجع إلى [ByteLegend وتابع](https://bytelegend.com) رحلة بطلك.
@@ -164,12 +212,24 @@ Si necesita ayuda, no dude en unirse a la [comunidad de Discord](https://discord
 <details>
 <summary>Português</summary>
 
-Nota de Aluno
+Nota do Aluno
 -------------
 
 Por favor, complete o método `getStudentGrade()` de [src/main/java/com/bytelegend/Challenge.java](https://github.com/ByteLegendQuest/java-student-grade/blob/main/src/main/java/com/bytelegend/Challenge.java) .
 
-`getStudentGrade(int score)` retorna a nota do aluno com base na pontuação fornecida. Se 0<=pontuação<60, retorne `E` ; Se 60<=pontuação<70, retorna `D` ; Se 70<=pontuação<80, retorna `C` ; Se 80<=pontuação<90, retorna `B` ; Se 90<=pontuação<100, retorne `A` ; Se a pontuação não estiver no intervalo de 0 a 100, retorne `Invalid Score` .
+`getStudentGrade(int score)` retorna a nota do aluno com base na pontuação fornecida.
+
+Se 0<=pontuação<60, retorne `E` ;
+
+Se 60<=pontuação<70, retorna `D` ;
+
+Se 70<=pontuação<80, retorna `C` ;
+
+Se 80<=pontuação<90, retorna `B` ;
+
+Se 90<=pontuação<100, retorne `A` ;
+
+Se a pontuação não estiver no intervalo de 0 a 100, retorne `Invalid Score` .
 
 -   Você pode realizar este desafio de qualquer maneira abaixo:
     -   Recomendado para iniciantes: execute `git clone https://github.com/ByteLegendQuest/java-student-grade` para baixar o código, conclua o desafio em seu IDE local e copie/cole/envie a resposta no editor da web.
@@ -198,7 +258,19 @@ Kelas Siswa
 
 Harap lengkapi metode `getStudentGrade()` [src/main/Java/com/bytelegend/Challenge.java](https://github.com/ByteLegendQuest/java-student-grade/blob/main/src/main/java/com/bytelegend/Challenge.java) .
 
-`getStudentGrade(int score)` mengembalikan nilai siswa berdasarkan skor yang diberikan. Jika 0<=skor<60, kembalikan `E` ; Jika 60<=skor<70, kembalikan `D` ; Jika 70<=skor<80, kembalikan `C` ; Jika 80<=skor<90, kembalikan `B` ; Jika 90<=skor<100, kembalikan `A` ; Jika skor tidak dalam kisaran 0-100, kembalikan `Invalid Score` .
+`getStudentGrade(int score)` mengembalikan nilai siswa berdasarkan skor yang diberikan.
+
+Jika 0<=skor<60, kembalikan `E` ;
+
+Jika 60<=skor<70, kembalikan `D` ;
+
+Jika 70<=skor<80, kembalikan `C` ;
+
+Jika 80<=skor<90, kembalikan `B` ;
+
+Jika 90<=skor<100, kembalikan `A` ;
+
+Jika skor tidak dalam kisaran 0-100, kembalikan `Invalid Score` .
 
 -   Anda dapat menyelesaikan tantangan ini melalui cara apa pun di bawah ini:
     -   Direkomendasikan untuk pemula: jalankan `git clone https://github.com/ByteLegendQuest/java-student-grade` untuk mengunduh kode, selesaikan tantangan di IDE lokal Anda, lalu salin/tempel/kirim jawabannya di editor web.
@@ -227,7 +299,19 @@ Note de l'étudiant
 
 Veuillez compléter la méthode `getStudentGrade()` de [src/main/java/com/bytelegend/Challenge.java](https://github.com/ByteLegendQuest/java-student-grade/blob/main/src/main/java/com/bytelegend/Challenge.java) .
 
-`getStudentGrade(int score)` renvoie la note de l'étudiant en fonction du score donné. Si 0<=score<60, retourne `E` ; Si 60<=score<70, retourne `D` ; Si 70<=score<80, retourne `C` ; Si 80<=score<90, retourne `B` ; Si 90<=score<100, retourne `A` ; Si le score n'est pas compris entre 0 et 100, renvoie `Invalid Score` .
+`getStudentGrade(int score)` renvoie la note de l'étudiant en fonction du score donné.
+
+Si 0<=score<60, retourne `E` ;
+
+Si 60<=score<70, retourne `D` ;
+
+Si 70<=score<80, retourne `C` ;
+
+Si 80<=score<90, retourne `B` ;
+
+Si 90<=score<100, retourne `A` ;
+
+Si le score n'est pas compris entre 0 et 100, renvoie `Invalid Score` .
 
 -   Vous pouvez accomplir ce défi de n'importe quelle manière ci-dessous:
     -   Recommandé pour les débutants : exécutez `git clone https://github.com/ByteLegendQuest/java-student-grade` pour télécharger le code, terminez le défi dans votre IDE local, puis copiez/collez/soumettez la réponse dans l'éditeur Web.
@@ -256,7 +340,19 @@ Si vous avez besoin d'aide, n'hésitez pas à rejoindre la [communauté Discord]
 
 [src / main / java / com / bytelegend / Challenge.java](https://github.com/ByteLegendQuest/java-student-grade/blob/main/src/main/java/com/bytelegend/Challenge.java)の`getStudentGrade()`メソッドを完了してください。
 
-`getStudentGrade(int score)`は、指定されたスコアに基づいて学生の成績を返します。 0 <=スコア<60の場合、 `E`を返します。 60 <=スコア<70の場合、 `D`を返します。 70 <=スコア<80の場合、 `C`を返します。 80 <=スコア<90の場合、 `B`を返します。 90 <=スコア<100の場合、 `A`を返します。スコアが0〜100の範囲にない場合は、 `Invalid Score`を返します。
+`getStudentGrade(int score)`は、指定されたスコアに基づいて学生の成績を返します。
+
+0 <=スコア<60の場合、 `E`を返します。
+
+60 <=スコア<70の場合、 `D`を返します。
+
+70 <=スコア<80の場合、 `C`を返します。
+
+80 <=スコア<90の場合、 `B`を返します。
+
+90 <=スコア<100の場合、 `A`を返します。
+
+スコアが0〜100の範囲にない場合は、 `Invalid Score`を返します。
 
 -   この課題は、以下のいずれかの方法で達成できます。
     -   初心者に推奨： `git clone https://github.com/ByteLegendQuest/java-student-grade`を実行してコードをダウンロードし、ローカルIDEでチャレンジを終了してから、Webエディターで回答をコピー/貼り付け/送信します。
@@ -285,7 +381,19 @@ Si vous avez besoin d'aide, n'hésitez pas à rejoindre la [communauté Discord]
 
 Пожалуйста, заполните метод `getStudentGrade()` [src/main/java/com/bytelegend/Challenge.java](https://github.com/ByteLegendQuest/java-student-grade/blob/main/src/main/java/com/bytelegend/Challenge.java) .
 
-`getStudentGrade(int score)` возвращает оценку учащегося на основе заданного балла. Если 0<=score<60, вернуть `E` ; Если 60<=score<70, вернуть `D` ; Если 70<=score<80, вернуть `C` ; Если 80<=score<90, вернуть `B` ; Если 90<=score<100, вернуть `A` ; Если оценка не находится в диапазоне от 0 до 100, вернуть `Invalid Score` .
+`getStudentGrade(int score)` возвращает оценку учащегося на основе заданного балла.
+
+Если 0<=score<60, вернуть `E` ;
+
+Если 60<=score<70, вернуть `D` ;
+
+Если 70<=score<80, вернуть `C` ;
+
+Если 80<=score<90, вернуть `B` ;
+
+Если 90<=score<100, вернуть `A` ;
+
+Если оценка не находится в диапазоне от 0 до 100, вернуть `Invalid Score` .
 
 -   Вы можете выполнить эту задачу любым способом, указанным ниже:
     -   Рекомендуется для начинающих: запустите `git clone https://github.com/ByteLegendQuest/java-student-grade` , чтобы загрузить код, выполните задание в локальной среде IDE, затем скопируйте/вставьте/отправьте ответ в веб-редакторе.
@@ -314,7 +422,19 @@ Grad des Studenten
 
 Bitte vervollständigen Sie die Methode `getStudentGrade()` [von src/main/java/com/bytelegend/Challenge.java](https://github.com/ByteLegendQuest/java-student-grade/blob/main/src/main/java/com/bytelegend/Challenge.java) .
 
-`getStudentGrade(int score)` gibt die Note des Schülers basierend auf der gegebenen Punktzahl zurück. Wenn 0<=score<60, gebe `E` zurück; Wenn 60<=Punktzahl<70, gebe `D` zurück; Wenn 70<=Punktzahl<80, gebe `C` zurück; Wenn 80<=Ergebnis<90, gebe `B` zurück; Wenn 90<=Punktzahl<100, gebe `A` zurück; Wenn die Punktzahl nicht im Bereich von 0 bis 100 liegt, geben `Invalid Score` zurück.
+`getStudentGrade(int score)` gibt die Note des Schülers basierend auf der gegebenen Punktzahl zurück.
+
+Wenn 0<=score<60, gebe `E` zurück;
+
+Wenn 60<=Punktzahl<70, gebe `D` zurück;
+
+Wenn 70<=Punktzahl<80, gebe `C` zurück;
+
+Wenn 80<=Punktzahl<90, gebe `B` zurück;
+
+Wenn 90<=Punktzahl<100, gebe `A` zurück;
+
+Wenn die Punktzahl nicht im Bereich von 0 bis 100 liegt, geben `Invalid Score` zurück.
 
 -   Sie können diese Herausforderung auf eine der folgenden Arten meistern:
     -   Empfohlen für Anfänger: Führen Sie `git clone https://github.com/ByteLegendQuest/java-student-grade` aus, um den Code herunterzuladen, beenden Sie die Herausforderung in Ihrer lokalen IDE und kopieren/fügen Sie dann die Antwort im Web-Editor ein/übermitteln Sie sie.
@@ -343,7 +463,19 @@ Wenn Sie Hilfe benötigen, können Sie sich gerne der [Discord Community](https:
 
 [src/main/java/com/bytelegend/Challenge.java](https://github.com/ByteLegendQuest/java-student-grade/blob/main/src/main/java/com/bytelegend/Challenge.java) 의 `getStudentGrade()` 메소드를 완성해주세요.
 
-`getStudentGrade(int score)` 는 주어진 점수를 기반으로 학생의 성적을 반환합니다. 0<=점수<60이면 `E` 를 반환합니다. 60<=점수<70이면 `D` 를 반환합니다. 70<=점수<80이면 `C` 를 반환합니다. 80<=점수<90이면 `B` 를 반환합니다. 90<=점수<100이면 `A` 를 반환합니다. 점수가 0-100 범위에 없으면 `Invalid Score` 를 반환합니다.
+`getStudentGrade(int score)` 는 주어진 점수를 기반으로 학생의 성적을 반환합니다.
+
+0<=점수<60이면 `E` 를 반환합니다.
+
+60<=점수<70이면 `D` 를 반환합니다.
+
+70<=점수<80이면 `C` 를 반환합니다.
+
+80<=점수<90이면 `B` 를 반환합니다.
+
+90<=점수<100이면 `A` 를 반환합니다.
+
+점수가 0-100 범위에 없으면 `Invalid Score` 를 반환합니다.
 
 -   아래 방법을 통해 이 챌린지를 완료할 수 있습니다.
     -   초보자를 위한 권장 사항: `git clone https://github.com/ByteLegendQuest/java-student-grade` 를 실행하여 코드를 다운로드하고 로컬 IDE에서 챌린지를 완료한 다음 웹 편집기에서 답변을 복사/붙여넣기/제출합니다.
@@ -372,7 +504,19 @@ Grado di studente
 
 Si prega di completare il metodo `getStudentGrade()` di [src/main/java/com/bytelegend/Challenge.java](https://github.com/ByteLegendQuest/java-student-grade/blob/main/src/main/java/com/bytelegend/Challenge.java) .
 
-`getStudentGrade(int score)` restituisce il voto dello studente in base al punteggio dato. Se 0<=punteggio<60, restituisce `E` ; Se 60<=punteggio<70, restituisce `D` ; Se 70<=punteggio<80, restituisce `C` ; Se 80<=punteggio<90, restituisce `B` ; Se 90<=punteggio<100, restituisce `A` ; Se il punteggio non è compreso tra 0 e 100, restituisci `Invalid Score` .
+`getStudentGrade(int score)` restituisce il voto dello studente in base al punteggio dato.
+
+Se 0<=punteggio<60, restituisce `E` ;
+
+Se 60<=punteggio<70, restituisce `D` ;
+
+Se 70<=punteggio<80, restituisce `C` ;
+
+Se 80<=punteggio<90, restituisce `B` ;
+
+Se 90<=punteggio<100, restituisce `A` ;
+
+Se il punteggio non è compreso tra 0 e 100, restituisci `Invalid Score` .
 
 -   Puoi portare a termine questa sfida in qualsiasi modo di seguito:
     -   Consigliato per i principianti: esegui `git clone https://github.com/ByteLegendQuest/java-student-grade` per scaricare il codice, completa la sfida nel tuo IDE locale, quindi copia/incolla/invia la risposta nell'editor web.
