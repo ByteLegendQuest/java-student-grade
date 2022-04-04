@@ -20,7 +20,7 @@ public class Challenge {
      *
      * <p>If 80<=score<90, return `B`;
      *
-     * <p>If 90<=score<100, return `A`;
+     * <p>If 90<=score<=100, return `A`;
      *
      * <p>If the score is not in 0-100 range, return `Invalid Score`.
      */

@@ -17,7 +17,7 @@ If 70<=score<80, return `C`;
 
 If 80<=score<90, return `B`;
 
-If 90<=score<100, return `A`;
+If 90<=score<=100, return `A`;
 
 If the score is not in 0-100 range, return `Invalid Score`.
 
@@ -104,7 +104,7 @@ Any changes to files other than the following files will be rejected:**
 
 如果 80<=score<90，則返回`B` ；
 
-如果 90<=score<100，則返回`A` ；
+如果 90<=score<=100，則返回`A` ；
 
 如果分數不在 0-100 範圍內，則返回`Invalid Score` 。
 
@@ -145,7 +145,7 @@ Si 70<=puntuación<80, devuelve `C` ;
 
 Si 80<=puntuación<90, devuelve `B` ;
 
-Si 90<=puntuación<100, devuelve `A` ;
+Si 90<=puntuación<=100, devuelve `A` ;
 
 Si la puntuación no está en el rango de 0 a 100, devuelva `Invalid Score` .
 
@@ -186,7 +186,7 @@ Si necesita ayuda, no dude en unirse a la [comunidad de Discord](https://discord
 
 إذا كانت 80 <= الدرجة <90 ، فقم بإرجاع `B` ؛
 
-إذا كانت 90 <= الدرجة <100 ، فقم بإرجاع `A` ؛
+إذا كانت 90 <= الدرجة <= 100 ، فقم بإرجاع `A` ؛
 
 إذا لم تكن النتيجة في النطاق 0-100 ، فقم بإرجاع `Invalid Score` .
 
@@ -212,7 +212,7 @@ Si necesita ayuda, no dude en unirse a la [comunidad de Discord](https://discord
 <details>
 <summary>Português</summary>
 
-Nota do Aluno
+Nota de Aluno
 -------------
 
 Por favor, complete o método `getStudentGrade()` de [src/main/java/com/bytelegend/Challenge.java](https://github.com/ByteLegendQuest/java-student-grade/blob/main/src/main/java/com/bytelegend/Challenge.java) .
@@ -227,17 +227,17 @@ Se 70<=pontuação<80, retorna `C` ;
 
 Se 80<=pontuação<90, retorna `B` ;
 
-Se 90<=pontuação<100, retorne `A` ;
+Se 90<=pontuação<=100, retorne `A` ;
 
 Se a pontuação não estiver no intervalo de 0 a 100, retorne `Invalid Score` .
 
 -   Você pode realizar este desafio de qualquer maneira abaixo:
     -   Recomendado para iniciantes: execute `git clone https://github.com/ByteLegendQuest/java-student-grade` para baixar o código, conclua o desafio em seu IDE local e copie/cole/envie a resposta no editor da web.
-        -   Se você não sabe como, você pode clicar em [import project into IDEA](https://github.com/ByteLegendQuest/java-student-grade/blob/main/docs/en/clone-and-import.md) / [import project into VSCode](https://github.com/ByteLegendQuest/java-student-grade/blob/main/docs/en/clone-and-import-vscode.md) .
+        -   Se você não sabe como, você pode clicar em [importar projeto para IDEA](https://github.com/ByteLegendQuest/java-student-grade/blob/main/docs/en/clone-and-import.md) / [importar projeto para VSCode](https://github.com/ByteLegendQuest/java-student-grade/blob/main/docs/en/clone-and-import-vscode.md) .
         -   Antes de enviar seu código, é melhor você executar `mvn verify` localmente para economizar tempo. Não sei como? Consulte [verificar localmente em IDEA](https://github.com/ByteLegendQuest/java-student-grade/blob/main/docs/en/run-mvn-verify-idea.md) / [verificar localmente em VSCode](https://github.com/ByteLegendQuest/java-student-grade/blob/main/docs/en/run-mvn-verify-vscode.md) .
     -   Muito não recomendado: você pode [clicar aqui para baixar o código zipado](https://codeload.github.com/ByteLegendQuest/java-student-grade/zip/refs/heads/main) se não gostar das operações do `git` .
     -   Ou: se você estiver confiante o suficiente para escrever código diretamente no editor da web, vá em frente.
-    -   Ou: se você estiver familiarizado com o GitHub, você pode fazer o fork [do repo](https://github.com/ByteLegendQuest/java-student-grade) , finalizar o desafio e criar uma pull request.
+    -   Ou: se você estiver familiarizado com o GitHub, você pode bifurcar [o repo](https://github.com/ByteLegendQuest/java-student-grade) , finalizar o desafio e criar um pull request.
 -   O bot verificará seu PR e informará se você cumprir o desafio.
 -   Volte para [ByteLegend](https://bytelegend.com) e continue sua jornada de herói.
 
@@ -268,7 +268,7 @@ Jika 70<=skor<80, kembalikan `C` ;
 
 Jika 80<=skor<90, kembalikan `B` ;
 
-Jika 90<=skor<100, kembalikan `A` ;
+Jika 90<=skor<=100, kembalikan `A` ;
 
 Jika skor tidak dalam kisaran 0-100, kembalikan `Invalid Score` .
 
@@ -309,7 +309,7 @@ Si 70<=score<80, retourne `C` ;
 
 Si 80<=score<90, retourne `B` ;
 
-Si 90<=score<100, retourne `A` ;
+Si 90<=score<=100, retourne `A` ;
 
 Si le score n'est pas compris entre 0 et 100, renvoie `Invalid Score` .
 
@@ -350,7 +350,7 @@ Si vous avez besoin d'aide, n'hésitez pas à rejoindre la [communauté Discord]
 
 80 <=スコア<90の場合、 `B`を返します。
 
-90 <=スコア<100の場合、 `A`を返します。
+90<=スコア<=100の場合、 `A`を返します。
 
 スコアが0〜100の範囲にない場合は、 `Invalid Score`を返します。
 
@@ -391,7 +391,7 @@ Si vous avez besoin d'aide, n'hésitez pas à rejoindre la [communauté Discord]
 
 Если 80<=score<90, вернуть `B` ;
 
-Если 90<=score<100, вернуть `A` ;
+Если 90<=score<=100, вернуть `A` ;
 
 Если оценка не находится в диапазоне от 0 до 100, вернуть `Invalid Score` .
 
@@ -432,7 +432,7 @@ Wenn 70<=Punktzahl<80, gebe `C` zurück;
 
 Wenn 80<=Punktzahl<90, gebe `B` zurück;
 
-Wenn 90<=Punktzahl<100, gebe `A` zurück;
+Wenn 90<=Ergebnis<=100, gebe `A` zurück;
 
 Wenn die Punktzahl nicht im Bereich von 0 bis 100 liegt, geben `Invalid Score` zurück.
 
@@ -473,7 +473,7 @@ Wenn Sie Hilfe benötigen, können Sie sich gerne der [Discord Community](https:
 
 80<=점수<90이면 `B` 를 반환합니다.
 
-90<=점수<100이면 `A` 를 반환합니다.
+90<=score<=100이면 `A` 를 반환합니다.
 
 점수가 0-100 범위에 없으면 `Invalid Score` 를 반환합니다.
 
@@ -514,7 +514,7 @@ Se 70<=punteggio<80, restituisce `C` ;
 
 Se 80<=punteggio<90, restituisce `B` ;
 
-Se 90<=punteggio<100, restituisce `A` ;
+Se 90<=punteggio<=100, restituisce `A` ;
 
 Se il punteggio non è compreso tra 0 e 100, restituisci `Invalid Score` .
 
