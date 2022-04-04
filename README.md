@@ -61,7 +61,7 @@ Any changes to files other than the following files will be rejected:**
 
 如果80<=分数<90，返回`B`；
 
-如果90<=90<=100，返回`A`；
+如果90<=分数<=100，返回`A`；
 
 若输入的分数不在0-100范围内，返回`Invalid Score`。
 
