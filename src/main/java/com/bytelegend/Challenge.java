@@ -36,7 +36,7 @@ public class Challenge {
         } else if (score >= 90 && score <= 100) {
             return "A";
         } else {
-            return "Invalid Score"
+            return "Invalid Score";
         }
     }
 }
