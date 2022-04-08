@@ -1,5 +1,7 @@
 package com.bytelegend;
 
+import javax.xml.transform.Source;
+
 public class Challenge {
     public static void main(String[] args) {
         System.out.println(getStudentGrade(-1));
@@ -25,6 +27,17 @@ public class Challenge {
      * <p>If the score is not in 0-100 range, return `Invalid Score`.
      */
     public static String getStudentGrade(int score) {
-        return null;
+        if (score < 0 || score > 100) {
+            return "Invalid Score";
+        } else if (score >= 90) {
+            return "A";
+        } else if (score >= 80) {
+            return "B";
+        } else if (score >= 70) {
+            return "C";
+        } else if (score >= 60) {
+            return "D";
+        }
+        return "E";
     }
 }
