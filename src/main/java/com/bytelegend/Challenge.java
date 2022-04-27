@@ -34,7 +34,7 @@ public class Challenge {
             result = "C";
         } else if (80 <= score && score < 90){
             result = "B";
-        } else if (90 <= score && score < 100){
+        } else if (90 <= score && score <= 100){
             result = "A";
         }
         return result;
