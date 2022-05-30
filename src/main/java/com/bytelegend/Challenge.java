@@ -27,15 +27,15 @@ public class Challenge {
     public static String getStudentGrade(int score) {
         
         if(90<=score<=100)
-            return A;
+            return "A";
         else if(80<=score<90)
-            return B;
+            return "B";
         else if(70<=score<80)
-            return C;
+            return "C";
          else if(60<=score<70)
-            return D;
+            return "D";
         else if(0<=score<60)
-            return E;
+            return "E";
         else
             return "Invalid Score";
     }
