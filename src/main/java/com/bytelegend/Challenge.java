@@ -28,7 +28,7 @@ public class Challenge {
         
         if(90 <= score <= 100)
             return "A";
-        else if(80 <=score< 90)
+        else if(80 <= score < 90)
             return "B";
         else if(70 <= score <80)
             return "C";
