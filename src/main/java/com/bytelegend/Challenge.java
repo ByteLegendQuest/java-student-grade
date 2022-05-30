@@ -36,7 +36,7 @@ public class Challenge {
             return "D";
         else if(0 <= score < 60)
             return "E";
-        else
-            return "Invalid Score";
+        
+        return "Invalid Score";
     }
 }
