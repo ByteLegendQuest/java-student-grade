@@ -25,20 +25,6 @@ public class Challenge {
      * <p>If the score is not in 0-100 range, return `Invalid Score`.
      */
     public static String getStudentGrade(int score) {
-        String level = "";
-        if (0 <= score && score < 60) {
-            level = "E";
-        } else if (60 <= score && score < 70) {
-            level = "D";
-        } else if (70 <= score && score < 80) {
-            level = "C";
-        } else if (80 <= score && score < 90) {
-            level = "B";
-        } else if (90 <= score && score <= 100) {
-            level = "A";
-        } else {
-            level = "Invalid Score";
-        }
-        return level;
+        return null;
     }
 }
