@@ -28,16 +28,16 @@ public class Challenge {
         if (0 <= score && score < 60) {
             return "E";
         }
-        if (60 <= score && score < 70) {
+        else if (60 <= score && score < 70) {
             return "D";
         }
-        if (70 <= score && score < 80) {
+        else if (70 <= score && score < 80) {
             return "C";
         }
-        if (80 <= score && score < 90) {
+        else if (80 <= score && score < 90) {
             return "B";
         }
-        if (90 < score && score <= 100) {
+        else if (90 < score && score <= 100) {
             return "A";
         } else {
             return "Invalid Score";
