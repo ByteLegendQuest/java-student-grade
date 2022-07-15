@@ -34,6 +34,8 @@ public class Challenge {
         : score<90
         ? "B"
         : score <=100
-        ? "A";
+        ? "A"
+        : score == null
+        ? "Invalid Score";
     }
 }
