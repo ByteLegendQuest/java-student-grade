@@ -37,6 +37,6 @@ public class Challenge {
             return "B";
         } else if (score <= 100) {
             return "A";
-        }
+        };
     }
 }
