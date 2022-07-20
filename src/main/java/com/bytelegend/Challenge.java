@@ -26,7 +26,7 @@ public class Challenge {
      */
     public static String getStudentGrade(int score) {
         if (score >=0) {
-            if (score <= 60) {
+            if (score < 60) {
                 return "E";
             } else if(score < 70) {
                 return "D";
