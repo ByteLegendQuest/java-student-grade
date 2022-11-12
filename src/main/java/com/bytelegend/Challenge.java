@@ -34,7 +34,7 @@ public class Challenge {
         } else if (score >= 70) {
             return "C";
         } else if (score >= 60) {
-            return "D;"
+            return "D";
         }
         return "E";
     }
