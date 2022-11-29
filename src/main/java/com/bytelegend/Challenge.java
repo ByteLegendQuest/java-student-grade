@@ -6,7 +6,7 @@ public class Challenge {
         System.out.println(getStudentGrade(0));
         System.out.println(getStudentGrade(60));
         System.out.println(getStudentGrade(75));
-        System.out.println(getStudentGrade(100));
+        System.out.println(getStudentGrade(100)); 
     }
 
     /**
