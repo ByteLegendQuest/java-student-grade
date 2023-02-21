@@ -9,21 +9,6 @@ public class Challenge {
         System.out.println(getStudentGrade(100));
     }
 
-    /**
-     * `getStudentGrade(int score)` returns the grade of the student based on the given score.
-     *
-     * <p>If 0<=score<60, return `E`;
-     *
-     * <p>If 60<=score<70, return `D`;
-     *
-     * <p>If 70<=score<80, return `C`;
-     *
-     * <p>If 80<=score<90, return `B`;
-     *
-     * <p>If 90<=score<=100, return `A`;
-     *
-     * <p>If the score is not in 0-100 range, return `Invalid Score`.
-     */
     public static String getStudentGrade(int score) {
         if score > 100 return "Invalid Score";
         if score >= 90 return "A";
