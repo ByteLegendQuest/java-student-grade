@@ -29,11 +29,11 @@ public class Challenge {
             return "Invalid Score";
         }  else if (score < 60) {
             return "E";
-        } else if (score <= 70) {
+        } else if (score < 70) {
             return "D";
-        } else if (score <= 80) {
+        } else if (score < 80) {
             return "C";
-        } else if (score <= 90) {
+        } else if (score < 90) {
             return "B";
         } else{
             return "A";
