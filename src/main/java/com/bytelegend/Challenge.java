@@ -27,13 +27,13 @@ public class Challenge {
     public static String getStudentGrade(int score) {
         if (0 <= score < 60 ) {
             return "E";
-        } else if ( 60 <= score < 70) {
+        } else if (60 < = score < 70) {
             return "D";
-        } else if ( 70 <= score <80 ) {
+        } else if (70 < = score <80) {
             return "C";
-        } else if ( 80 <= score <90 ) {
+        } else if (80 < = score <90) {
             return "B";
-        } else if ( 90 <= score <= 100) {
+        } else if (90 < = score < = 100) {
             return "A";
         } 
         return "Invalid Score";
