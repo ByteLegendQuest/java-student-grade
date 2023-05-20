@@ -32,9 +32,9 @@ public class Challenge {
             case 0, 1, 2, 3, 4, 5 -> "E";
             case 6 -> "D";
             case 7 -> "C";
-            case 8 -> "B",
+            case 8 -> "B";
             case 9, 10 -> "A";
             default -> "Invalid Score";
-        }
+        };
     }
 }
