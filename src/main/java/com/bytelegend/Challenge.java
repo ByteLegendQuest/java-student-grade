@@ -25,9 +25,6 @@ public class Challenge {
      * <p>If the score is not in 0-100 range, return `Invalid Score`.
      */
     public static String getStudentGrade(int score) {
-        if (score < 0 || score > 100) {
-            return "Invalid Score";
-        }
-        return new String[]{"E", "E", "E", "E", "E", "E", "D", "C", "B", "A", "A"}[score / 10];
+        return null;
     }
 }
