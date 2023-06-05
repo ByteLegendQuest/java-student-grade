@@ -38,6 +38,5 @@ public class Challenge {
         } else {
             return "Invalid Score";
         }
-        return null;
     }
 }
